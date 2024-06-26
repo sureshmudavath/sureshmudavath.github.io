@@ -3,13 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Change font for a more professional look */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-    background-color: #f0f0f0; /* Lighter background color */
-    color: #333; /* Darker text color for better readability */
-    line-height: 1.8; /* Increased line height for better spacing */
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.8;
 }
 
 /* Header styles */
@@ -17,12 +17,12 @@ header {
     background-color: #34495e;
     padding: 1rem 0;
     text-align: center;
-    color: #ecf0f1; /* Adjusted text color for header */
+    color: #ecf0f1;
 }
 
 header h1 {
     margin-bottom: 0.5rem;
-    font-size: 2.5rem; /* Larger font size for header */
+    font-size: 2.5rem;
 }
 
 nav ul {
@@ -39,31 +39,55 @@ nav ul li {
 nav ul li a {
     color: #ecf0f1;
     text-decoration: none;
-    font-size: 1.2rem; /* Slightly larger font size for navigation links */
+    font-size: 1.2rem;
 }
 
 /* Section styles */
 section {
     padding: 2rem;
-    margin: 2rem auto; /* Increased margin for better separation */
+    margin: 2rem auto;
     max-width: 1000px;
-    text-align: left; /* Left align section content */
-    background-color: #fff; /* White background for sections */
-    border-radius: 10px; /* Rounded corners for sections */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for sections */
+    text-align: left;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .about-content {
-    text-align: justify; /* Justify text for better alignment */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.about-content a {
+.profile-picture {
+    flex: 0 0 200px; /* Fixed width for the profile picture */
+    margin-right: 20px;
+}
+
+.profile-picture img {
+    /*border-radius: 50%;*/
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.about-text a {
     display: block;
     text-align: center;
     margin-top: 20px;
     font-weight: bold;
     text-decoration: none;
-    color: #3498db; /* Matches the link color in the HTML */
+    color: #3498db;
 }
 
 .projects-container {
@@ -74,23 +98,23 @@ section {
 
 .project {
     padding: 1rem;
-    flex: 1 1 calc(33.333% - 2rem); /* Adjust width for 3 columns */
+    flex: 1 1 calc(33.333% - 2rem);
     box-sizing: border-box;
     margin: 0.5rem;
 }
 
 .project-one {
-    background-color: #3498db; /* Blue */
+    background-color: #3498db;
     border-radius: 10px;
 }
 
 .project-two {
-    background-color: #2ecc71; /* Green */
+    background-color: #2ecc71;
     border-radius: 10px;
 }
 
 .project-three {
-    background-color: #e74c3c; /* Red */
+    background-color: #e74c3c;
     border-radius: 10px;
 }
 
@@ -114,14 +138,14 @@ footer {
     background-color: #34495e;
     text-align: left;
     padding: 1rem;
-    color: #ecf0f1; /* Adjusted text color for footer */
+    color: #ecf0f1;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 footer a {
-    color: #3498db; /* Change link color to a professional shade */
+    color: #3498db;
     text-decoration: none;
 }
 
@@ -132,11 +156,11 @@ footer a:hover {
 /* Social links styles */
 .social-links {
     margin-top: 10px;
-    margin-left: 10px; /* Adjusted margin for spacing */
+    margin-left: 10px;
 }
 
 .social-links a {
-    margin-right: 10px; /* Adjust spacing between social links */
+    margin-right: 10px;
     color: #c1d0da;
     text-decoration: none;
 }
