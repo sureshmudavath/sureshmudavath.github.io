@@ -1,0 +1,161 @@
+/* Reset and general styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Change font for a more professional look */
+}
+
+body {
+    background-color: #f0f0f0; /* Lighter background color */
+    color: #333; /* Darker text color for better readability */
+    line-height: 1.8; /* Increased line height for better spacing */
+}
+
+/* Header styles */
+header {
+    background-color: #34495e;
+    padding: 1rem 0;
+    text-align: center;
+    color: #ecf0f1; /* Adjusted text color for header */
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem; /* Larger font size for header */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1.2rem; /* Slightly larger font size for navigation links */
+}
+
+/* Section styles */
+section {
+    padding: 2rem;
+    margin: 2rem auto; /* Increased margin for better separation */
+    max-width: 1000px;
+    text-align: left; /* Left align section content */
+    background-color: #fff; /* White background for sections */
+    border-radius: 10px; /* Rounded corners for sections */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for sections */
+}
+
+.about-content {
+    text-align: justify; /* Justify text for better alignment */
+}
+
+.about-content a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #3498db; /* Matches the link color in the HTML */
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.project {
+    padding: 1rem;
+    flex: 1 1 calc(33.333% - 2rem); /* Adjust width for 3 columns */
+    box-sizing: border-box;
+    margin: 0.5rem;
+}
+
+.project-one {
+    background-color: #3498db; /* Blue */
+    border-radius: 10px;
+}
+
+.project-two {
+    background-color: #2ecc71; /* Green */
+    border-radius: 10px;
+}
+
+.project-three {
+    background-color: #e74c3c; /* Red */
+    border-radius: 10px;
+}
+
+/* Experience section styles */
+#experience h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#experience .experience-content {
+    margin-top: 20px;
+}
+
+#experience .experience-content p:first-child {
+    font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+    background-color: #34495e;
+    text-align: left;
+    padding: 1rem;
+    color: #ecf0f1; /* Adjusted text color for footer */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a {
+    color: #3498db; /* Change link color to a professional shade */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Social links styles */
+.social-links {
+    margin-top: 10px;
+    margin-left: 10px; /* Adjusted margin for spacing */
+}
+
+.social-links a {
+    margin-right: 10px; /* Adjust spacing between social links */
+    color: #c1d0da;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Resume button styles */
+.resume-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.resume-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
